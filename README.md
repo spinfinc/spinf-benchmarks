@@ -23,12 +23,13 @@ Some models are benchmarked here before they are generally available:
 | Model | Availability | Results |
 |---|---|---|
 | `spinf-12b` | generally available | `results/` (all tables below) |
-| `spinf-31b` | **on request**: not available for general use yet; ask us for access | results being added |
+| `spinf-31b` | **on request**: not available for general use yet; ask us for access | [`results/spinf-31b/`](results/spinf-31b/RESULTS.md), and [side by side with 12B](results/spinf-31b/COMPARISON.md) |
 
 A model shown here is not a commitment that it will become generally available, or on what terms.
 
-The `--model` option (`python3 run.py all --model <model> --out <folder>`) works only with a model your account is
-enabled for.
+Both models are run the same way (same items, same 3 example sets). The spinf-31b price is not published, so its
+results show no cost (`prices.yaml`: 0.00). The `--model` option (`python3 run.py all --model <model> --out <folder>`)
+works only with a model your account is enabled for.
 
 ## Run it
 

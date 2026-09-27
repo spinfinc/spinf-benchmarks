@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672 446" width="672" height="446" role="img" aria-label="Content moderation — calibration (spinf-31b)"><style>
+    .bg{fill:#fcfcfb}.t1{fill:#0b0b0b}.t2{fill:#52514e}.grid{stroke:#e4e3df}.axis{stroke:#b9b8b2}.diag{stroke:#9a9993}
+    .s0{stroke:#2a78d6;fill:#2a78d6}.s1{stroke:#eb6834;fill:#eb6834}.ring{stroke:#fcfcfb}
+    @media (prefers-color-scheme: dark){.bg{fill:#1a1a19}.t1{fill:#ffffff}.t2{fill:#c3c2b7}.grid{stroke:#2e2e2c}
+    .axis{stroke:#4a4a47}.diag{stroke:#6d6c67}.s0{stroke:#3987e5;fill:#3987e5}.s1{stroke:#d95926;fill:#d95926}.ring{stroke:#1a1a19}}
+    text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}</style><rect class="bg" width="672" height="446"/>
+<text class="t1" x="24" y="28" font-size="16" font-weight="600">Content moderation — calibration (spinf-31b)</text>
+<circle class="s0 ring" cx="30" cy="50" r="5" stroke-width="2"/><text class="t2" x="40" y="54" font-size="12">raw</text>
+<circle class="s1 ring" cx="160" cy="50" r="5" stroke-width="2"/><text class="t2" x="170" y="54" font-size="12">floor-calibrated</text>
+<line class="diag" x1="284" y1="50" x2="302" y2="50" stroke-dasharray="4 3" stroke-width="1.5"/><text class="t2" x="308" y="54" font-size="12">perfect calibration</text>
+<text class="t1" x="24" y="84" font-size="13" font-weight="600">breaks policy?</text><text class="t2" x="24" y="100" font-size="11">zero-shot · p(yes) · n=130</text>
+<line class="grid" x1="68" y1="340" x2="316" y2="340" stroke-width="1"/><text class="t2" x="62" y="344" font-size="10" text-anchor="end">0</text><text class="t2" x="68" y="354" font-size="10" text-anchor="middle">0</text>
+<line class="grid" x1="68" y1="282.5" x2="316" y2="282.5" stroke-width="1"/><text class="t2" x="62" y="286.5" font-size="10" text-anchor="end">0.25</text><text class="t2" x="130.0" y="354" font-size="10" text-anchor="middle">0.25</text>
+<line class="grid" x1="68" y1="225.0" x2="316" y2="225.0" stroke-width="1"/><text class="t2" x="62" y="229.0" font-size="10" text-anchor="end">0.5</text><text class="t2" x="192.0" y="354" font-size="10" text-anchor="middle">0.5</text>
+<line class="grid" x1="68" y1="167.5" x2="316" y2="167.5" stroke-width="1"/><text class="t2" x="62" y="171.5" font-size="10" text-anchor="end">0.75</text><text class="t2" x="254.0" y="354" font-size="10" text-anchor="middle">0.75</text>
+<line class="grid" x1="68" y1="110" x2="316" y2="110" stroke-width="1"/><text class="t2" x="62" y="114" font-size="10" text-anchor="end">1</text><text class="t2" x="316" y="354" font-size="10" text-anchor="middle">1</text>
+<line class="axis" x1="68" y1="340" x2="316" y2="340" stroke-width="1"/><line class="diag" x1="68" y1="340" x2="316" y2="110" stroke-dasharray="4 3" stroke-width="1.5"/><text class="t2" x="192.0" y="370" font-size="10" text-anchor="middle">predicted probability</text><text class="t2" x="32" y="225.0" font-size="10" text-anchor="middle" transform="rotate(-90 32 225.0)">observed frequency</text>
+<path class="s0" d="M81.3,340.0 L104.7,340.0 L129.3,340.0 L151.8,248.0 L179.0,110.0 L206.4,142.9 L230.6,110.0 L253.7,110.0 L281.4,110.0 L294.7,110.0" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s0 ring" cx="81.3" cy="340.0" r="5.0" stroke-width="2"><title>raw: predicted 0.05, observed 0.00, 4 items</title></circle>
+<circle class="s0 ring" cx="104.7" cy="340.0" r="6.1" stroke-width="2"><title>raw: predicted 0.15, observed 0.00, 18 items</title></circle>
+<circle class="s0 ring" cx="129.3" cy="340.0" r="5.8" stroke-width="2"><title>raw: predicted 0.25, observed 0.00, 13 items</title></circle>
+<circle class="s0 ring" cx="151.8" cy="248.0" r="5.1" stroke-width="2"><title>raw: predicted 0.34, observed 0.40, 5 items</title></circle>
+<circle class="s0 ring" cx="179.0" cy="110.0" r="4.7" stroke-width="2"><title>raw: predicted 0.45, observed 1.00, 2 items</title></circle>
+<circle class="s0 ring" cx="206.4" cy="142.9" r="5.9" stroke-width="2"><title>raw: predicted 0.56, observed 0.86, 14 items</title></circle>
+<circle class="s0 ring" cx="230.6" cy="110.0" r="5.7" stroke-width="2"><title>raw: predicted 0.66, observed 1.00, 12 items</title></circle>
+<circle class="s0 ring" cx="253.7" cy="110.0" r="6.4" stroke-width="2"><title>raw: predicted 0.75, observed 1.00, 24 items</title></circle>
+<circle class="s0 ring" cx="281.4" cy="110.0" r="6.8" stroke-width="2"><title>raw: predicted 0.86, observed 1.00, 31 items</title></circle>
+<circle class="s0 ring" cx="294.7" cy="110.0" r="5.3" stroke-width="2"><title>raw: predicted 0.91, observed 1.00, 7 items</title></circle>
+<path class="s1" d="M83.8,340.0 L107.5,340.0 L128.4,340.0 L151.5,294.0 L178.7,225.0 L208.9,161.1 L230.2,110.0 L255.0,110.0 L279.5,110.0 L296.0,110.0" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s1 ring" cx="83.8" cy="340.0" r="5.0" stroke-width="2"><title>floor-calibrated: predicted 0.06, observed 0.00, 4 items</title></circle>
+<circle class="s1 ring" cx="107.5" cy="340.0" r="5.8" stroke-width="2"><title>floor-calibrated: predicted 0.16, observed 0.00, 13 items</title></circle>
+<circle class="s1 ring" cx="128.4" cy="340.0" r="5.7" stroke-width="2"><title>floor-calibrated: predicted 0.24, observed 0.00, 12 items</title></circle>
+<circle class="s1 ring" cx="151.5" cy="294.0" r="5.6" stroke-width="2"><title>floor-calibrated: predicted 0.34, observed 0.20, 10 items</title></circle>
+<circle class="s1 ring" cx="178.7" cy="225.0" r="4.7" stroke-width="2"><title>floor-calibrated: predicted 0.45, observed 0.50, 2 items</title></circle>
+<circle class="s1 ring" cx="208.9" cy="161.1" r="5.5" stroke-width="2"><title>floor-calibrated: predicted 0.57, observed 0.78, 9 items</title></circle>
+<circle class="s1 ring" cx="230.2" cy="110.0" r="5.9" stroke-width="2"><title>floor-calibrated: predicted 0.65, observed 1.00, 14 items</title></circle>
+<circle class="s1 ring" cx="255.0" cy="110.0" r="6.1" stroke-width="2"><title>floor-calibrated: predicted 0.75, observed 1.00, 18 items</title></circle>
+<circle class="s1 ring" cx="279.5" cy="110.0" r="6.8" stroke-width="2"><title>floor-calibrated: predicted 0.85, observed 1.00, 32 items</title></circle>
+<circle class="s1 ring" cx="296.0" cy="110.0" r="6.0" stroke-width="2"><title>floor-calibrated: predicted 0.92, observed 1.00, 16 items</title></circle>
+<text class="t1" x="348" y="84" font-size="13" font-weight="600">category (7)</text><text class="t2" x="348" y="100" font-size="11">zero-shot · top-answer confidence · n=130</text>
+<line class="grid" x1="392" y1="340" x2="640" y2="340" stroke-width="1"/><text class="t2" x="386" y="344" font-size="10" text-anchor="end">0</text><text class="t2" x="392" y="354" font-size="10" text-anchor="middle">0</text>
+<line class="grid" x1="392" y1="282.5" x2="640" y2="282.5" stroke-width="1"/><text class="t2" x="386" y="286.5" font-size="10" text-anchor="end">0.25</text><text class="t2" x="454.0" y="354" font-size="10" text-anchor="middle">0.25</text>
+<line class="grid" x1="392" y1="225.0" x2="640" y2="225.0" stroke-width="1"/><text class="t2" x="386" y="229.0" font-size="10" text-anchor="end">0.5</text><text class="t2" x="516.0" y="354" font-size="10" text-anchor="middle">0.5</text>
+<line class="grid" x1="392" y1="167.5" x2="640" y2="167.5" stroke-width="1"/><text class="t2" x="386" y="171.5" font-size="10" text-anchor="end">0.75</text><text class="t2" x="578.0" y="354" font-size="10" text-anchor="middle">0.75</text>
+<line class="grid" x1="392" y1="110" x2="640" y2="110" stroke-width="1"/><text class="t2" x="386" y="114" font-size="10" text-anchor="end">1</text><text class="t2" x="640" y="354" font-size="10" text-anchor="middle">1</text>
+<line class="axis" x1="392" y1="340" x2="640" y2="340" stroke-width="1"/><line class="diag" x1="392" y1="340" x2="640" y2="110" stroke-dasharray="4 3" stroke-width="1.5"/><text class="t2" x="516.0" y="370" font-size="10" text-anchor="middle">predicted probability</text><text class="t2" x="356" y="225.0" font-size="10" text-anchor="middle" transform="rotate(-90 356 225.0)">observed frequency</text>
+<path class="s0" d="M455.9,193.6 L485.4,193.6 L505.4,205.8 L530.2,156.0 L553.3,163.1 L578.3,110.0 L601.6,142.9 L630.1,119.2" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s0 ring" cx="455.9" cy="193.6" r="5.7" stroke-width="2"><title>raw: predicted 0.26, observed 0.64, 11 items</title></circle>
+<circle class="s0 ring" cx="485.4" cy="193.6" r="5.7" stroke-width="2"><title>raw: predicted 0.38, observed 0.64, 11 items</title></circle>
+<circle class="s0 ring" cx="505.4" cy="205.8" r="6.4" stroke-width="2"><title>raw: predicted 0.46, observed 0.58, 24 items</title></circle>
+<circle class="s0 ring" cx="530.2" cy="156.0" r="5.6" stroke-width="2"><title>raw: predicted 0.56, observed 0.80, 10 items</title></circle>
+<circle class="s0 ring" cx="553.3" cy="163.1" r="5.8" stroke-width="2"><title>raw: predicted 0.65, observed 0.77, 13 items</title></circle>
+<circle class="s0 ring" cx="578.3" cy="110.0" r="5.9" stroke-width="2"><title>raw: predicted 0.75, observed 1.00, 15 items</title></circle>
+<circle class="s0 ring" cx="601.6" cy="142.9" r="6.3" stroke-width="2"><title>raw: predicted 0.85, observed 0.86, 21 items</title></circle>
+<circle class="s0 ring" cx="630.1" cy="119.2" r="6.5" stroke-width="2"><title>raw: predicted 0.96, observed 0.96, 25 items</title></circle>
+<path class="s1" d="M459.6,282.5 L480.9,205.8 L505.3,180.0 L527.7,157.9 L557.3,159.3 L577.4,148.3 L599.4,110.0 L631.5,117.7" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s1 ring" cx="459.6" cy="282.5" r="5.0" stroke-width="2"><title>floor-calibrated: predicted 0.27, observed 0.25, 4 items</title></circle>
+<circle class="s1 ring" cx="480.9" cy="205.8" r="5.7" stroke-width="2"><title>floor-calibrated: predicted 0.36, observed 0.58, 12 items</title></circle>
+<circle class="s1 ring" cx="505.3" cy="180.0" r="6.4" stroke-width="2"><title>floor-calibrated: predicted 0.46, observed 0.70, 23 items</title></circle>
+<circle class="s1 ring" cx="527.7" cy="157.9" r="6.4" stroke-width="2"><title>floor-calibrated: predicted 0.55, observed 0.79, 24 items</title></circle>
+<circle class="s1 ring" cx="557.3" cy="159.3" r="5.9" stroke-width="2"><title>floor-calibrated: predicted 0.67, observed 0.79, 14 items</title></circle>
+<circle class="s1 ring" cx="577.4" cy="148.3" r="5.7" stroke-width="2"><title>floor-calibrated: predicted 0.75, observed 0.83, 12 items</title></circle>
+<circle class="s1 ring" cx="599.4" cy="110.0" r="5.7" stroke-width="2"><title>floor-calibrated: predicted 0.84, observed 1.00, 11 items</title></circle>
+<circle class="s1 ring" cx="631.5" cy="117.7" r="6.7" stroke-width="2"><title>floor-calibrated: predicted 0.97, observed 0.97, 30 items</title></circle>
+</svg>
