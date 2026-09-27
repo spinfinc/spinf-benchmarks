@@ -199,7 +199,8 @@ def write_report():
     order = {"synthetic": 0, "public": 1}
     reps.sort(key=lambda r: (order.get(r["kind"], 2), r["task"]))
     prints = sorted({p for r in reps for p in r.get("fingerprints", [])})
-    lines = [f"Model `{bench.MODEL}`, system_fingerprint {', '.join(f'`{p}`' for p in prints)}; "
+    base = bench.BASE_MODELS.get(bench.MODEL)
+    lines = [f"Model `{bench.MODEL}`{f' ({base}, optimized by spinf)' if base else ''}, system_fingerprint {', '.join(f'`{p}`' for p in prints)}; "
              f"run {max(r['date'] for r in reps)}. Each cell: raw / floor-calibrated. Yes/no questions: AUC, then accuracy "
              "at the default cut-off (p(yes) > p(no)); multi-choice: accuracy, then macro-F1. 4 and 8 examples: mean of "
              "3 example sets. n = scored items (for per-company / per-aspect questions: item × company or aspect pairs).",

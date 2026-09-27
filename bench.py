@@ -10,6 +10,8 @@ import urllib.request
 
 API_URL = os.environ.get("SPINF_API_URL", "https://api.spinf.com/v1/score")
 MODEL = "spinf-12b"  # run.py --model sets it
+# the open-weights model behind each spinf model (the API also accepts the standard names, e.g. google/gemma-4-12B)
+BASE_MODELS = {"spinf-12b": "Gemma 4 12B", "spinf-31b": "Gemma 4 31B"}
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, ".cache", "responses")
 

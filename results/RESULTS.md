@@ -1,6 +1,6 @@
 # Results
 
-Model `spinf-12b`, system_fingerprint `fp_87dd99dbf6`; run 2026-09-27. Each cell: raw / floor-calibrated. Yes/no questions: AUC, then accuracy at the default cut-off (p(yes) > p(no)); multi-choice: accuracy, then macro-F1. 4 and 8 examples: mean of 3 example sets. n = scored items (for per-company / per-aspect questions: item × company or aspect pairs).
+Model `spinf-12b` (Gemma 4 12B, optimized by spinf), system_fingerprint `fp_87dd99dbf6`; run 2026-09-27. Each cell: raw / floor-calibrated. Yes/no questions: AUC, then accuracy at the default cut-off (p(yes) > p(no)); multi-choice: accuracy, then macro-F1. 4 and 8 examples: mean of 3 example sets. n = scored items (for per-company / per-aspect questions: item × company or aspect pairs).
 
 ### Synthetic sets (this repo, labels reviewed)
 

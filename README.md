@@ -16,14 +16,18 @@ The questions are the ones the use-case pages call. Anyone can re-run everything
 
 ## Models
 
-Results are reported for **`spinf-12b`**, the generally available model.
+Results are reported for **`spinf-12b`**, the generally available model. spinf serves Google DeepMind's open-weights
+Gemma 4 models, optimized for scoring at scale: `spinf-12b` is Gemma 4 12B, and the API also accepts its standard name
+(`"model": "google/gemma-4-12B"`).
 
 Some models are benchmarked here before they are generally available:
 
-| Model | Availability | Results |
-|---|---|---|
-| `spinf-12b` | generally available | `results/` (all tables below) |
-| `spinf-31b` | **on request**: not available for general use yet; ask us for access | [`results/spinf-31b/`](results/spinf-31b/RESULTS.md), and [side by side with 12B](results/spinf-31b/COMPARISON.md) |
+| Model | Based on | Availability | Results |
+|---|---|---|---|
+| `spinf-12b` | Gemma 4 12B | generally available | `results/` (all tables below) |
+| `spinf-31b` | Gemma 4 31B | **on request**: not available for general use yet; ask us for access | [`results/spinf-31b/`](results/spinf-31b/RESULTS.md), and [side by side with 12B](results/spinf-31b/COMPARISON.md) |
+
+Gemma is a trademark of Google LLC; the Gemma 4 weights are released under the Apache 2.0 license.
 
 A model shown here is not a commitment that it will become generally available, or on what terms.
 
