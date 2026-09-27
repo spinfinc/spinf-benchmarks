@@ -1,0 +1,15 @@
+{
+ "task": "content_moderation",
+ "items": 154,
+ "reviewed": 154,
+ "missing": [],
+ "fields": {
+  "category": {
+   "agree": 154,
+   "total": 154,
+   "rate": 1.0
+  }
+ },
+ "items_full_agreement": 154,
+ "disagreements": 0
+}

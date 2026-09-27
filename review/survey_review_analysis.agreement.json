@@ -1,0 +1,40 @@
+{
+ "task": "survey_review_analysis",
+ "items": 149,
+ "reviewed": 149,
+ "missing": [],
+ "fields": {
+  "overall": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  },
+  "aspects.delivery": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  },
+  "aspects.packaging": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  },
+  "aspects.customer support": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  },
+  "aspects.product quality": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  },
+  "aspects.price": {
+   "agree": 149,
+   "total": 149,
+   "rate": 1.0
+  }
+ },
+ "items_full_agreement": 149,
+ "disagreements": 0
+}

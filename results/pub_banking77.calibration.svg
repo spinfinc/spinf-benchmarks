@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 446" width="348" height="446" role="img" aria-label="Banking77 intents — calibration (spinf-12b)"><style>
+    .bg{fill:#fcfcfb}.t1{fill:#0b0b0b}.t2{fill:#52514e}.grid{stroke:#e4e3df}.axis{stroke:#b9b8b2}.diag{stroke:#9a9993}
+    .s0{stroke:#2a78d6;fill:#2a78d6}.s1{stroke:#eb6834;fill:#eb6834}.ring{stroke:#fcfcfb}
+    @media (prefers-color-scheme: dark){.bg{fill:#1a1a19}.t1{fill:#ffffff}.t2{fill:#c3c2b7}.grid{stroke:#2e2e2c}
+    .axis{stroke:#4a4a47}.diag{stroke:#6d6c67}.s0{stroke:#3987e5;fill:#3987e5}.s1{stroke:#d95926;fill:#d95926}.ring{stroke:#1a1a19}}
+    text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}</style><rect class="bg" width="348" height="446"/>
+<text class="t1" x="24" y="28" font-size="16" font-weight="600">Banking77 intents — calibration (spinf-12b)</text>
+<circle class="s0 ring" cx="30" cy="50" r="5" stroke-width="2"/><text class="t2" x="40" y="54" font-size="12">raw</text>
+<circle class="s1 ring" cx="160" cy="50" r="5" stroke-width="2"/><text class="t2" x="170" y="54" font-size="12">floor-calibrated</text>
+<line class="diag" x1="284" y1="50" x2="302" y2="50" stroke-dasharray="4 3" stroke-width="1.5"/><text class="t2" x="308" y="54" font-size="12">perfect calibration</text>
+<text class="t1" x="24" y="84" font-size="13" font-weight="600">intent (77)</text><text class="t2" x="24" y="100" font-size="11">zero-shot · top-answer confidence · n=300</text>
+<line class="grid" x1="68" y1="340" x2="316" y2="340" stroke-width="1"/><text class="t2" x="62" y="344" font-size="10" text-anchor="end">0</text><text class="t2" x="68" y="354" font-size="10" text-anchor="middle">0</text>
+<line class="grid" x1="68" y1="282.5" x2="316" y2="282.5" stroke-width="1"/><text class="t2" x="62" y="286.5" font-size="10" text-anchor="end">0.25</text><text class="t2" x="130.0" y="354" font-size="10" text-anchor="middle">0.25</text>
+<line class="grid" x1="68" y1="225.0" x2="316" y2="225.0" stroke-width="1"/><text class="t2" x="62" y="229.0" font-size="10" text-anchor="end">0.5</text><text class="t2" x="192.0" y="354" font-size="10" text-anchor="middle">0.5</text>
+<line class="grid" x1="68" y1="167.5" x2="316" y2="167.5" stroke-width="1"/><text class="t2" x="62" y="171.5" font-size="10" text-anchor="end">0.75</text><text class="t2" x="254.0" y="354" font-size="10" text-anchor="middle">0.75</text>
+<line class="grid" x1="68" y1="110" x2="316" y2="110" stroke-width="1"/><text class="t2" x="62" y="114" font-size="10" text-anchor="end">1</text><text class="t2" x="316" y="354" font-size="10" text-anchor="middle">1</text>
+<line class="axis" x1="68" y1="340" x2="316" y2="340" stroke-width="1"/><line class="diag" x1="68" y1="340" x2="316" y2="110" stroke-dasharray="4 3" stroke-width="1.5"/><text class="t2" x="192.0" y="370" font-size="10" text-anchor="middle">predicted probability</text><text class="t2" x="32" y="225.0" font-size="10" text-anchor="middle" transform="rotate(-90 32 225.0)">observed frequency</text>
+<path class="s0" d="M112.4,340.0 L132.1,298.2 L155.8,284.5 L179.5,275.3 L204.2,280.9 L231.0,274.3 L252.1,320.0 L278.3,291.9 L308.0,226.2" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s0 ring" cx="112.4" cy="340.0" r="4.7" stroke-width="2"><title>raw: predicted 0.18, observed 0.00, 2 items</title></circle>
+<circle class="s0 ring" cx="132.1" cy="298.2" r="5.7" stroke-width="2"><title>raw: predicted 0.26, observed 0.18, 11 items</title></circle>
+<circle class="s0 ring" cx="155.8" cy="284.5" r="6.7" stroke-width="2"><title>raw: predicted 0.35, observed 0.24, 29 items</title></circle>
+<circle class="s0 ring" cx="179.5" cy="275.3" r="6.8" stroke-width="2"><title>raw: predicted 0.45, observed 0.28, 32 items</title></circle>
+<circle class="s0 ring" cx="204.2" cy="280.9" r="7.0" stroke-width="2"><title>raw: predicted 0.55, observed 0.26, 35 items</title></circle>
+<circle class="s0 ring" cx="231.0" cy="274.3" r="6.6" stroke-width="2"><title>raw: predicted 0.66, observed 0.29, 28 items</title></circle>
+<circle class="s0 ring" cx="252.1" cy="320.0" r="6.4" stroke-width="2"><title>raw: predicted 0.74, observed 0.09, 23 items</title></circle>
+<circle class="s0 ring" cx="278.3" cy="291.9" r="7.3" stroke-width="2"><title>raw: predicted 0.85, observed 0.21, 43 items</title></circle>
+<circle class="s0 ring" cx="308.0" cy="226.2" r="8.9" stroke-width="2"><title>raw: predicted 0.97, observed 0.49, 97 items</title></circle>
+<path class="s1" d="M113.6,340.0 L133.7,311.2 L155.7,296.2 L181.0,307.1 L203.4,317.0 L230.3,308.3 L254.8,295.5 L278.5,284.1 L309.5,217.5" style="fill:none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s1 ring" cx="113.6" cy="340.0" r="4.7" stroke-width="2"><title>floor-calibrated: predicted 0.18, observed 0.00, 2 items</title></circle>
+<circle class="s1 ring" cx="133.7" cy="311.2" r="5.4" stroke-width="2"><title>floor-calibrated: predicted 0.26, observed 0.12, 8 items</title></circle>
+<circle class="s1 ring" cx="155.7" cy="296.2" r="6.3" stroke-width="2"><title>floor-calibrated: predicted 0.35, observed 0.19, 21 items</title></circle>
+<circle class="s1 ring" cx="181.0" cy="307.1" r="7.0" stroke-width="2"><title>floor-calibrated: predicted 0.46, observed 0.14, 35 items</title></circle>
+<circle class="s1 ring" cx="203.4" cy="317.0" r="6.7" stroke-width="2"><title>floor-calibrated: predicted 0.55, observed 0.10, 30 items</title></circle>
+<circle class="s1 ring" cx="230.3" cy="308.3" r="6.7" stroke-width="2"><title>floor-calibrated: predicted 0.65, observed 0.14, 29 items</title></circle>
+<circle class="s1 ring" cx="254.8" cy="295.5" r="6.8" stroke-width="2"><title>floor-calibrated: predicted 0.75, observed 0.19, 31 items</title></circle>
+<circle class="s1 ring" cx="278.5" cy="284.1" r="7.0" stroke-width="2"><title>floor-calibrated: predicted 0.85, observed 0.24, 37 items</title></circle>
+<circle class="s1 ring" cx="309.5" cy="217.5" r="9.0" stroke-width="2"><title>floor-calibrated: predicted 0.97, observed 0.53, 107 items</title></circle>
+</svg>

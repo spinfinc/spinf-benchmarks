@@ -1,0 +1,30 @@
+{
+ "task": "news_analysis",
+ "items": 139,
+ "reviewed": 139,
+ "missing": [],
+ "fields": {
+  "companies": {
+   "agree": 318,
+   "total": 322,
+   "rate": 0.988
+  },
+  "supply_problem": {
+   "agree": 138,
+   "total": 139,
+   "rate": 0.993
+  },
+  "guidance_change": {
+   "agree": 138,
+   "total": 139,
+   "rate": 0.993
+  },
+  "topic": {
+   "agree": 129,
+   "total": 139,
+   "rate": 0.928
+  }
+ },
+ "items_full_agreement": 123,
+ "disagreements": 16
+}

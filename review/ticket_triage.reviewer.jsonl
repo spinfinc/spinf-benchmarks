@@ -1,0 +1,154 @@
+{"id": "tt001", "topic": "account", "handling": "human", "urgent": true, "confidence": "low", "note": "urgent: suspicious login alert, compromise not confirmed by user, treated as potential security issue"}
+{"id": "tt002", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt003", "topic": "account", "handling": "human", "urgent": true, "confidence": "low", "note": "urgent: ongoing access dispute, 'today' request but no hard external deadline"}
+{"id": "tt004", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt005", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt006", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt007", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "low", "note": "handling: routine termination but involves confirming no early-termination penalty applies"}
+{"id": "tt008", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt009", "topic": "billing", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: refund dispute originates from a non-delivery/shipping issue but ask is monetary refund (billing)"}
+{"id": "tt010", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt011", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt012", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt013", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt014", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt015", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt016", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt017", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "low", "note": "urgent: delivery is today but no explicit stated deadline/consequence beyond convenience"}
+{"id": "tt018", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt019", "topic": "cancellation", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt020", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt021", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt022", "topic": "billing", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt023", "topic": "shipping", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt024", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt025", "topic": "technical", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt026", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt027", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt028", "topic": "account", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: family plan takeover after death; keeping most of account (account/ownership) vs closing one line (cancellation)"}
+{"id": "tt029", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt030", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt031", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt032", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt033", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt034", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt035", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: multi-issue ticket (missing box, wrong size, double charge, tracking exception); picked the customer's stated top priority (missing box/shipping)"}
+{"id": "tt036", "topic": "account", "handling": "bot", "urgent": false, "confidence": "low", "note": "handling: SMS verification failing 3x could need manual identity check rather than pure self-serve"}
+{"id": "tt037", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt038", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt039", "topic": "account", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt040", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt041", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt042", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt043", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt044", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt045", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: executor closing deceased's account could be filed as account (ownership/estate) instead of cancellation"}
+{"id": "tt046", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt047", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt048", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt049", "topic": "shipping", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt050", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "low", "note": "handling: routine invoice resend, but this is the 3rd failed attempt which may indicate a process failure needing human escalation"}
+{"id": "tt051", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt052", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt053", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt054", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt055", "topic": "billing", "handling": "human", "urgent": true, "confidence": "low", "note": "topic: payment-matching/suspension dispute overlaps billing and account-access domains"}
+{"id": "tt056", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt057", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt058", "topic": "cancellation", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt059", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt060", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt061", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt062", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt063", "topic": "technical", "handling": "bot", "urgent": true, "confidence": "low", "note": "handling: config location question is self-serve, but business (support queue) is currently blocked by it"}
+{"id": "tt064", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt065", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt066", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt067", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt068", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt069", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt070", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt071", "topic": "technical", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: solar export reading mismatch touches both technical meter config and billing/feed-in implications"}
+{"id": "tt072", "topic": "billing", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt073", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt074", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt075", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt076", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt077", "topic": "account", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt078", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt079", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt080", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt081", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: multi-issue (partial cancellation + billing dispute + contract-date query); picked stated primary ask (cancel TV portion)"}
+{"id": "tt082", "topic": "billing", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt083", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt084", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt085", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt086", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt087", "topic": "billing", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt088", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt089", "topic": "technical", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt090", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt091", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt092", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt093", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt094", "topic": "billing", "handling": "human", "urgent": true, "confidence": "low", "note": "urgent: solicitor already engaged/advised formal review counts as a legal-threat trigger even without a hard 24h deadline"}
+{"id": "tt095", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt096", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt097", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt098", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt099", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt100", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt101", "topic": "billing", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt102", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt103", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt104", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt105", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt106", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt107", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt108", "topic": "shipping", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt109", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt110", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt111", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt112", "topic": "billing", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: loyalty/discount request for existing member sits between billing and cancellation/retention"}
+{"id": "tt113", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt114", "topic": "cancellation", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt115", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt116", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt117", "topic": "account", "handling": "bot", "urgent": true, "confidence": "low", "note": "handling: repeated failure of password-reset delivery could warrant human escalation rather than another automated resend"}
+{"id": "tt118", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt119", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "tt120", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt121", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt122", "topic": "billing", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt123", "topic": "cancellation", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "tt124", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt125", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt126", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt127", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "tt128", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "tt129", "topic": "billing", "handling": "bot", "urgent": true, "confidence": "low", "note": "topic: expired-card workspace lockout overlaps billing (payment method) and account (access/suspension)"}
+{"id": "tt130", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "ts01", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts02", "topic": "technical", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts03", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts04", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "low", "note": "handling: missing item from a sealed package could be simple self-serve replacement or may need manual review given it's the second occurrence pattern seen elsewhere; treated as needing judgement"}
+{"id": "ts05", "topic": "cancellation", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "ts06", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts07", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "ts08", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts09", "topic": "billing", "handling": "bot", "urgent": true, "confidence": "high"}
+{"id": "ts10", "topic": "technical", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts11", "topic": "account", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "ts12", "topic": "shipping", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts13", "topic": "cancellation", "handling": "human", "urgent": false, "confidence": "low", "note": "topic: fee-waiver request tied to contract cancellation could also be filed as a billing dispute"}
+{"id": "ts14", "topic": "billing", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts15", "topic": "technical", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "ts16", "topic": "account", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts17", "topic": "shipping", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts18", "topic": "cancellation", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts19", "topic": "technical", "handling": "bot", "urgent": true, "confidence": "low", "note": "topic: offline boarding pass is an app-feature how-to (technical) though closely tied to travel/shipping context"}
+{"id": "ts20", "topic": "account", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts21", "topic": "billing", "handling": "bot", "urgent": false, "confidence": "high"}
+{"id": "ts22", "topic": "shipping", "handling": "human", "urgent": false, "confidence": "high"}
+{"id": "ts23", "topic": "cancellation", "handling": "human", "urgent": true, "confidence": "high"}
+{"id": "ts24", "topic": "billing", "handling": "human", "urgent": false, "confidence": "high"}

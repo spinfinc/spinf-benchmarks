@@ -1,0 +1,16 @@
+{"id": "na005", "field": "topic", "decision": "drop", "reason": "Import alert halting a plant: regulation vs supply chain. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na039", "field": "topic", "decision": "drop", "reason": "Regulator-ordered recall with plant halt: regulation vs supply chain. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na042", "field": "topic", "decision": "drop", "reason": "Regulator-ordered recall, production halt and outlook cut. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na059", "field": "topic", "decision": "drop", "reason": "Guidance cut caused by a rail outage, plus results: earnings vs supply chain. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na066", "field": "topic", "decision": "drop", "reason": "Government grant for a plant: regulation vs deals. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na093", "field": "topic", "decision": "drop", "reason": "Results and forecast cut caused by a supplier fire: earnings vs supply chain. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na102", "field": "topic", "decision": "drop", "reason": "Regulator-ordered refinery shutdown with guidance cut: regulation vs supply chain. Main topic genuinely split between two categories (both annotators' readings defensible): dropped."}
+{"id": "na019", "field": "guidance_change", "decision": "fix", "value": true, "reason": "A nine-month delay to the target of connecting 2 million homes is a change in targets."}
+{"id": "na096", "field": "companies.Wendlow Value Partners", "decision": "fix", "value": "positive", "reason": "The activist won its campaign and its holding rose 6%."}
+{"id": "ns13", "field": "companies.Pinmore Capital", "decision": "fix", "value": "positive", "reason": "The activist got the leadership change it called for and its holding rose 6%."}
+{"id": "na002", "field": "companies.Harlan Ridge Capital", "decision": "drop_label", "reason": "Activist lost the vote (negative) but is not the company reported on (neutral): ambiguous, label not scored."}
+{"id": "na048", "field": "companies.Ellsmere Infrastructure Partners", "decision": "drop_label", "reason": "Buyer paying above analysts' expectations: neutral vs positive (or negative) ambiguous, label not scored."}
+{"id": "na070", "field": "supply_problem", "decision": "keep", "value": true, "reason": "Rerouting around a conflict-hit lane is a logistics disruption, even though it helps the shipper."}
+{"id": "ns06", "field": "topic", "decision": "keep", "value": "earnings", "reason": "Few-shot example; results-led article. Kept (examples are not scored)."}
+{"id": "ns08", "field": "topic", "decision": "keep", "value": "deals", "reason": "The reported event is a lease agreement."}
+{"id": "ns16", "field": "topic", "decision": "keep", "value": "regulation", "reason": "Few-shot example; regulator order is the headline. Kept (examples are not scored)."}

@@ -1,0 +1,25 @@
+{
+ "task": "ticket_triage",
+ "items": 154,
+ "reviewed": 154,
+ "missing": [],
+ "fields": {
+  "topic": {
+   "agree": 154,
+   "total": 154,
+   "rate": 1.0
+  },
+  "handling": {
+   "agree": 154,
+   "total": 154,
+   "rate": 1.0
+  },
+  "urgent": {
+   "agree": 153,
+   "total": 154,
+   "rate": 0.994
+  }
+ },
+ "items_full_agreement": 153,
+ "disagreements": 1
+}

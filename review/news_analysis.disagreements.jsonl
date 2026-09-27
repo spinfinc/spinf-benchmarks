@@ -1,0 +1,16 @@
+{"id": "na002", "field": "companies.Harlan Ridge Capital", "gold": "neutral", "reviewer": "negative"}
+{"id": "na005", "field": "topic", "gold": "regulation", "reviewer": "supply chain"}
+{"id": "na019", "field": "guidance_change", "gold": false, "reviewer": true}
+{"id": "na039", "field": "topic", "gold": "regulation", "reviewer": "supply chain"}
+{"id": "na042", "field": "topic", "gold": "regulation", "reviewer": "supply chain"}
+{"id": "na048", "field": "companies.Ellsmere Infrastructure Partners", "gold": "neutral", "reviewer": "positive"}
+{"id": "na059", "field": "topic", "gold": "earnings", "reviewer": "supply chain"}
+{"id": "na066", "field": "topic", "gold": "regulation", "reviewer": "deals"}
+{"id": "na070", "field": "supply_problem", "gold": true, "reviewer": false}
+{"id": "na093", "field": "topic", "gold": "earnings", "reviewer": "supply chain"}
+{"id": "na096", "field": "companies.Wendlow Value Partners", "gold": "neutral", "reviewer": "positive"}
+{"id": "na102", "field": "topic", "gold": "regulation", "reviewer": "supply chain"}
+{"id": "ns06", "field": "topic", "gold": "earnings", "reviewer": "supply chain"}
+{"id": "ns08", "field": "topic", "gold": "deals", "reviewer": "supply chain"}
+{"id": "ns13", "field": "companies.Pinmore Capital", "gold": "neutral", "reviewer": "positive"}
+{"id": "ns16", "field": "topic", "gold": "regulation", "reviewer": "supply chain"}

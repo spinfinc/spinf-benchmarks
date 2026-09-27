@@ -1,0 +1,4 @@
+# USD per million billed tokens, per model. Used for the "$ per 1,000 items" figures.
+# 0.00 = no published price yet: cost is not reported for that model (shown as "–").
+spinf-12b: 0.09
+spinf-31b: 0.00
