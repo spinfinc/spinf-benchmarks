@@ -1,0 +1,369 @@
+{
+ "pack": "spinf/moderation@0.1.1",
+ "billed_tokens": 24888555,
+ "rows": [
+  {
+   "category": "sexual",
+   "dataset": "oai_categories",
+   "label": "S",
+   "positives": 237,
+   "auroc": 0.9867,
+   "recall_at_default": 0.962
+  },
+  {
+   "category": "child",
+   "dataset": "oai_categories",
+   "label": "S3",
+   "positives": 85,
+   "auroc": 0.8586,
+   "recall_at_default": 0.3765
+  },
+  {
+   "category": "hate",
+   "dataset": "oai_categories",
+   "label": "H",
+   "positives": 162,
+   "auroc": 0.9217,
+   "recall_at_default": 0.6914
+  },
+  {
+   "category": "violence",
+   "dataset": "oai_categories",
+   "label": "H2",
+   "positives": 41,
+   "auroc": 0.9123,
+   "recall_at_default": 0.5122
+  },
+  {
+   "category": "violence",
+   "dataset": "oai_categories",
+   "label": "V",
+   "positives": 94,
+   "auroc": 0.92,
+   "recall_at_default": 0.4681
+  },
+  {
+   "category": "graphic",
+   "dataset": "oai_categories",
+   "label": "V2",
+   "positives": 24,
+   "auroc": 0.9027,
+   "recall_at_default": 0.625
+  },
+  {
+   "category": "harassment",
+   "dataset": "oai_categories",
+   "label": "HR",
+   "positives": 76,
+   "auroc": 0.9493,
+   "recall_at_default": 0.4605
+  },
+  {
+   "category": "selfharm",
+   "dataset": "oai_categories",
+   "label": "SH",
+   "positives": 51,
+   "auroc": 0.9914,
+   "recall_at_default": 1.0
+  },
+  {
+   "category": "violence",
+   "dataset": "civil_comments",
+   "label": "threat",
+   "positives": 335,
+   "auroc": 0.9373,
+   "recall_at_default": 0.5164
+  },
+  {
+   "category": "harassment",
+   "dataset": "civil_comments",
+   "label": "insult",
+   "positives": 1022,
+   "auroc": 0.6624,
+   "recall_at_default": 0.0969
+  },
+  {
+   "category": "sexual",
+   "dataset": "civil_comments",
+   "label": "sexual_explicit",
+   "positives": 253,
+   "auroc": 0.8662,
+   "recall_at_default": 0.3834
+  },
+  {
+   "category": "hate",
+   "dataset": "civil_comments",
+   "label": "identity_attack",
+   "positives": 331,
+   "auroc": 0.848,
+   "recall_at_default": 0.5166
+  },
+  {
+   "category": "profanity",
+   "dataset": "civil_comments",
+   "label": "obscene",
+   "positives": 211,
+   "auroc": 0.7988,
+   "recall_at_default": 0.436
+  },
+  {
+   "category": "violence",
+   "dataset": "aegis2",
+   "label": "Violence",
+   "positives": 371,
+   "auroc": 0.806,
+   "recall_at_default": 0.4744
+  },
+  {
+   "category": "hate",
+   "dataset": "aegis2",
+   "label": "Hate/Identity Hate",
+   "positives": 279,
+   "auroc": 0.8958,
+   "recall_at_default": 0.319
+  },
+  {
+   "category": "sexual",
+   "dataset": "aegis2",
+   "label": "Sexual",
+   "positives": 251,
+   "auroc": 0.8639,
+   "recall_at_default": 0.3705
+  },
+  {
+   "category": "harassment",
+   "dataset": "aegis2",
+   "label": "Harassment",
+   "positives": 236,
+   "auroc": 0.8613,
+   "recall_at_default": 0.0763
+  },
+  {
+   "category": "selfharm",
+   "dataset": "aegis2",
+   "label": "Suicide and Self Harm",
+   "positives": 189,
+   "auroc": 0.9237,
+   "recall_at_default": 0.4603
+  },
+  {
+   "category": "drugs",
+   "dataset": "aegis2",
+   "label": "Controlled/Regulated Substances",
+   "positives": 186,
+   "auroc": 0.9044,
+   "recall_at_default": 0.3602
+  },
+  {
+   "category": "weapons",
+   "dataset": "aegis2",
+   "label": "Guns and Illegal Weapons",
+   "positives": 155,
+   "auroc": 0.9416,
+   "recall_at_default": 0.4
+  },
+  {
+   "category": "privacy",
+   "dataset": "aegis2",
+   "label": "PII/Privacy",
+   "positives": 143,
+   "auroc": 0.7689,
+   "recall_at_default": 0.5315
+  },
+  {
+   "category": "fraud",
+   "dataset": "aegis2",
+   "label": "Fraud/Deception",
+   "positives": 137,
+   "auroc": 0.8079,
+   "recall_at_default": 0.4015
+  },
+  {
+   "category": "child",
+   "dataset": "aegis2",
+   "label": "Sexual (minor)",
+   "positives": 123,
+   "auroc": 0.9305,
+   "recall_at_default": 0.6585
+  },
+  {
+   "category": "cyber",
+   "dataset": "aegis2",
+   "label": "Malware",
+   "positives": 88,
+   "auroc": 0.8577,
+   "recall_at_default": 0.6364
+  },
+  {
+   "category": "violence",
+   "dataset": "aegis2",
+   "label": "Threat",
+   "positives": 62,
+   "auroc": 0.8481,
+   "recall_at_default": 0.6613
+  },
+  {
+   "category": "profanity",
+   "dataset": "aegis2",
+   "label": "Profanity",
+   "positives": 323,
+   "auroc": 0.8181,
+   "recall_at_default": 0.4768
+  },
+  {
+   "category": "crime",
+   "dataset": "aegis2",
+   "label": "Criminal Planning/Confessions",
+   "positives": 827,
+   "auroc": 0.8948,
+   "recall_at_default": 0.7328
+  },
+  {
+   "category": "crime",
+   "dataset": "aegis2",
+   "label": "Illegal Activity",
+   "positives": 174,
+   "auroc": 0.5209,
+   "recall_at_default": 0.1264
+  },
+  {
+   "category": "violence",
+   "dataset": "beavertails_categories",
+   "label": "violence,aiding_and_abetting,incitement",
+   "positives": 368,
+   "auroc": 0.7371,
+   "recall_at_default": 0.4022
+  },
+  {
+   "category": "hate",
+   "dataset": "beavertails_categories",
+   "label": "hate_speech,offensive_language",
+   "positives": 174,
+   "auroc": 0.7832,
+   "recall_at_default": 0.3276
+  },
+  {
+   "category": "hate",
+   "dataset": "beavertails_categories",
+   "label": "discrimination,stereotype,injustice",
+   "positives": 163,
+   "auroc": 0.9153,
+   "recall_at_default": 0.5276
+  },
+  {
+   "category": "crime",
+   "dataset": "beavertails_categories",
+   "label": "financial_crime,property_crime,theft",
+   "positives": 140,
+   "auroc": 0.8424,
+   "recall_at_default": 0.8071
+  },
+  {
+   "category": "drugs",
+   "dataset": "beavertails_categories",
+   "label": "drug_abuse,weapons,banned_substance",
+   "positives": 113,
+   "auroc": 0.8088,
+   "recall_at_default": 0.4336
+  },
+  {
+   "category": "privacy",
+   "dataset": "beavertails_categories",
+   "label": "privacy_violation",
+   "positives": 103,
+   "auroc": 0.9123,
+   "recall_at_default": 0.6893
+  },
+  {
+   "category": "sexual",
+   "dataset": "beavertails_categories",
+   "label": "sexually_explicit,adult_content",
+   "positives": 100,
+   "auroc": 0.9735,
+   "recall_at_default": 0.78
+  },
+  {
+   "category": "graphic",
+   "dataset": "beavertails_categories",
+   "label": "animal_abuse",
+   "positives": 44,
+   "auroc": 0.9404,
+   "recall_at_default": 0.4318
+  },
+  {
+   "category": "extremism",
+   "dataset": "beavertails_categories",
+   "label": "terrorism,organized_crime",
+   "positives": 43,
+   "auroc": 0.8204,
+   "recall_at_default": 0.0698
+  },
+  {
+   "category": "child",
+   "dataset": "beavertails_categories",
+   "label": "child_abuse",
+   "positives": 27,
+   "auroc": 0.886,
+   "recall_at_default": 0.5185
+  },
+  {
+   "category": "selfharm",
+   "dataset": "beavertails_categories",
+   "label": "self_harm",
+   "positives": 19,
+   "auroc": 0.9588,
+   "recall_at_default": 0.8421
+  },
+  {
+   "category": "spam",
+   "dataset": "sms_spam",
+   "label": "spam",
+   "positives": 747,
+   "auroc": 0.9187,
+   "recall_at_default": null
+  },
+  {
+   "category": "spam",
+   "dataset": "youtube_spam",
+   "label": "spam",
+   "positives": 1005,
+   "auroc": 0.9361,
+   "recall_at_default": null
+  },
+  {
+   "category": "spam",
+   "dataset": "deysi_spam",
+   "label": "spam",
+   "positives": 498,
+   "auroc": 0.9956,
+   "recall_at_default": null
+  },
+  {
+   "category": "gibberish",
+   "dataset": "gibberish",
+   "label": "gibberish",
+   "positives": 300,
+   "auroc": 0.9987,
+   "recall_at_default": null
+  }
+ ],
+ "mean_auroc": {
+  "sexual": 0.9226,
+  "child": 0.8917,
+  "hate": 0.8728,
+  "violence": 0.8602,
+  "graphic": 0.9215,
+  "harassment": 0.8243,
+  "selfharm": 0.958,
+  "profanity": 0.8084,
+  "drugs": 0.8566,
+  "weapons": 0.9416,
+  "privacy": 0.8406,
+  "fraud": 0.8079,
+  "cyber": 0.8577,
+  "crime": 0.7527,
+  "extremism": 0.8204,
+  "spam": 0.9501,
+  "gibberish": 0.9987
+ }
+}

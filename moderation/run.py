@@ -94,7 +94,7 @@ def main():
            "mean": {m: round(sum(v.values()) / len(v), 1) for m, v in f1.items()}}
     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
     json.dump(res, open(os.path.join(HERE, "results", "results.json"), "w"), indent=1)
-    lines = [f"# spinf/moderation {a.version}: content moderation benchmark", "",
+    lines = ["## Safe / unsafe: the nine datasets", "",
              f"Model `{bench.MODEL}` ({bench.BASE_MODELS.get(bench.MODEL, '')}), {n_items:,} items, "
              f"{res['billed_per_item']:,} billed tokens per item"
              + (f" (${res['usd_per_1000']:.3f} per 1,000 items)" if price else "") + ". Macro F1 (%) per dataset.", "",
@@ -104,7 +104,9 @@ def main():
     lines.append(f"| **Mean ({len(sets)} datasets)** | | " + " | ".join(f"**{res['mean'][m]:.1f}**" for m in MODES) + " |")
     lines += ["", f"API decision vs the local re-derivation (micro_layer): {mismatch} mismatches. "
               f"Engine fingerprint(s): {', '.join(res['fingerprints'])}."]
-    open(os.path.join(HERE, "results", "RESULTS.md"), "w").write("\n".join(lines) + "\n")
+    open(os.path.join(HERE, "results", "overall.md"), "w").write("\n".join(lines) + "\n")
+    import run_categories
+    run_categories.assemble(a.version)
     print("\n".join(lines))
 
 

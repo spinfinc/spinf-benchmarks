@@ -1,0 +1,90 @@
+{
+ "oai_categories": {
+  "url": "https://raw.githubusercontent.com/openai/moderation-api-release/main/data/samples-1680.jsonl.gz",
+  "field": "prompt",
+  "context": "forum",
+  "license": "MIT",
+  "labels": "the 8 flags: S sexual, S3 sexual/minors, H hate, H2 hate/threatening, V violence, V2 violence/graphic, HR harassment, SH self-harm (null = not annotated)",
+  "n": 1680,
+  "revision": null
+ },
+ "civil_comments": {
+  "hf": "google/civil_comments",
+  "config": "default",
+  "split": "train",
+  "field": "text",
+  "parquet": true,
+  "context": "forum",
+  "license": "CC0",
+  "labels": "rater fractions; a label is on at >= 0.5 (threat, insult, sexual_explicit, identity_attack, obscene)",
+  "n": 3600,
+  "revision": "f2970eb3a55777454c94069077cc8d9b5866312d"
+ },
+ "aegis2": {
+  "hf": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+  "config": "default",
+  "field": "prompt",
+  "context": "ai",
+  "license": "CC-BY 4.0",
+  "labels": "violated_categories of unsafe prompts without a response",
+  "n": 2881,
+  "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c"
+ },
+ "beavertails_categories": {
+  "hf": "PKU-Alignment/BeaverTails",
+  "file": "round0/30k/test.jsonl.gz",
+  "format": "jsonl.gz",
+  "field": "prompt",
+  "context": "ai",
+  "license": "CC-BY-NC 4.0",
+  "labels": "the 14 categories (they label the response: a noisy prompt-level signal)",
+  "n": 1440,
+  "revision": "8401fe609d288129cc684a9b3be6a93e41cfe678"
+ },
+ "sms_spam": {
+  "hf": "ucirvine/sms_spam",
+  "config": "plain_text",
+  "split": "train",
+  "field": "sms",
+  "strip": true,
+  "context": "forum",
+  "license": "CC-BY 4.0",
+  "labels": "spam",
+  "n": 1347,
+  "revision": "cae486f927c250fe1d4a5b55f11357964ed1646c"
+ },
+ "youtube_spam": {
+  "hf": "jason1966/ahsenwaheed_youtube-comments-spam-dataset",
+  "file": "Youtube-Spam-Dataset.csv",
+  "format": "csv",
+  "field": "CONTENT",
+  "context": "forum",
+  "license": "CC-BY 4.0 (UCI)",
+  "labels": "CLASS 1 = spam",
+  "n": 1956,
+  "revision": "0dcf5107e4bfe2f6e58d0cd60dad8ed0605bb584"
+ },
+ "deysi_spam": {
+  "hf": "Deysi/spam-detection-dataset",
+  "config": "default",
+  "split": "test",
+  "field": "text",
+  "truncate": 4000,
+  "context": "forum",
+  "license": "Apache 2.0",
+  "labels": "spam",
+  "n": 1000,
+  "revision": "93ce16d5fa4a41ca47f380654647bcdb64d60e72"
+ },
+ "gibberish": {
+  "hf": "lmsys/toxic-chat",
+  "config": "toxicchat0124",
+  "split": "train",
+  "field": "user_input",
+  "context": "ai",
+  "license": "synthetic (ours) + ToxicChat CC-BY-NC 4.0",
+  "labels": "300 synthetic gibberish texts (stored here) vs 300 real short ToxicChat prompts",
+  "n": 600,
+  "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8"
+ }
+}

@@ -32,6 +32,7 @@ python3 moderation/fetch.py      # the texts -> moderation/data/ (each checked a
 export SPINF_API_KEY=ssk-...
 python3 moderation/run.py        # -> moderation/results/RESULTS.md, results.json
 python3 moderation/run.py --limit 20   # a quick check: 20 texts per dataset
+python3 moderation/run_categories.py   # the per-category results (Civil Comments needs pyarrow to fetch)
 ```
 
 One call per 8 texts with `include_queries`; the three decision modes are re-derived locally from the raw query results
@@ -40,7 +41,28 @@ full run bills about 12M tokens, about $1.05.
 
 ## Results
 
-See [`results/RESULTS.md`](results/RESULTS.md) for every dataset. Mean macro F1 over the nine datasets
+**Per category** (`python3 moderation/run_categories.py`, 14,504 texts): how well each category score separates texts with that category from all other texts (other harm
+categories included), as AUROC against public category labels (OpenAI moderation flags, Civil Comments rater fractions,
+Aegis 2.0, BeaverTails, three spam collections, synthetic gibberish), measured with the same pack. The default
+thresholds flag 0.5% of everyday content per category.
+
+| Category | AUROC | | Category | AUROC |
+|---|---|---|---|---|
+| Gibberish (synthetic test) | 0.999 | | Hacking and malware | 0.858 |
+| Self-harm and suicide | 0.958 | | Illegal drugs | 0.857 |
+| Spam and advertising | 0.950 | | Private personal information | 0.841 |
+| Weapons | 0.942 | | Harassment and bullying | 0.824 |
+| Sexual content | 0.923 | | Extremism and terrorism | 0.820 |
+| Gore and graphic violence | 0.921 | | Profanity | 0.808 |
+| Child sexual exploitation and grooming | 0.892 | | Fraud and scams | 0.808 |
+| Hate against protected groups | 0.873 | | Other crime | 0.753 |
+| Violence and threats | 0.860 | | | |
+
+Per dataset (positives, AUROC, recall at the default threshold): [`results/RESULTS.md`](results/RESULTS.md).
+
+The regulated topics (alcohol, tobacco and vaping, gambling, medication) are reported but not calibrated yet.
+
+**Safe / unsafe** (`python3 moderation/run.py`): see [`results/RESULTS.md`](results/RESULTS.md) for every dataset. Mean macro F1 over the nine datasets
 (spinf/moderation 0.1.1, `spinf-12b`, 6,857 texts, $0.154 per 1,000 texts):
 
 | Decision mode | Mean macro F1 (9 datasets) |
@@ -50,22 +72,3 @@ See [`results/RESULTS.md`](results/RESULTS.md) for every dataset. Mean macro F1 
 | `per_category` | 72.1 |
 
 For reference, the paper reports Llama Guard 3 8B 74.7, Gemma 3 12B 74.7 and GPT-4.1 77.8 on the same nine datasets.
-
-**Per category**: how well each category score separates texts with that category from all other texts (other harm
-categories included), as AUROC against public category labels (OpenAI moderation flags, Civil Comments rater fractions,
-Aegis 2.0, BeaverTails, three spam collections, synthetic gibberish), measured with the same pack. The default
-thresholds flag 0.5% of everyday content per category.
-
-| Category | AUROC | | Category | AUROC |
-|---|---|---|---|---|
-| Gibberish | 0.999 | | Violence and threats | 0.859 |
-| Self-harm and suicide | 0.959 | | Illegal drugs | 0.859 |
-| Spam and advertising | 0.949 | | Hacking and malware | 0.856 |
-| Weapons | 0.941 | | Private personal information | 0.841 |
-| Gore and graphic violence | 0.925 | | Harassment and bullying | 0.824 |
-| Sexual content | 0.922 | | Extremism and terrorism | 0.820 |
-| Child sexual exploitation and grooming | 0.896 | | Profanity | 0.809 |
-| Hate against protected groups | 0.871 | | Fraud and scams | 0.805 |
-| | | | Other crime | 0.753 |
-
-The regulated topics (alcohol, tobacco and vaping, gambling, medication) are reported but not calibrated yet.
