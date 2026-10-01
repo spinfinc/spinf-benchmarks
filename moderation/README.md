@@ -1,6 +1,6 @@
 # Content moderation: the spinf/moderation prompt pack
 
-`spinf/moderation` is a prompt pack hosted by the spinf API: 81 short questions about a text, calibration constants, and a
+`spinf/moderation` is a prompt pack hosted by the spinf API: 106 short questions about a text (58 templates), calibration constants, and a
 decision layer, in one JSON file (download it with `GET /v1/packs/spinf/moderation?version=0.1.1` and your API key). Scoring
 a text with it returns a calibrated 0-1 score per category (17 harm and content categories, 4 regulated topics, and an
 overall "general" score) and a safe / unsafe decision:
