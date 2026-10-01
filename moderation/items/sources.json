@@ -1,0 +1,102 @@
+{
+ "aegis": {
+  "hf": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+  "config": "default",
+  "split": "test",
+  "field": "text",
+  "strip": true,
+  "label": "unsafe when every annotator chose a category other than Safe (user messages only)",
+  "revision": "bd96d862068e47630197de64eb91f8d1481ff3e0",
+  "license": "CC-BY 4.0",
+  "n": 359,
+  "harmful_rate": 0.5877
+ },
+ "oai": {
+  "url": "https://raw.githubusercontent.com/openai/moderation-api-release/main/data/samples-1680.jsonl.gz",
+  "field": "prompt",
+  "label": "unsafe when any of the 8 category flags is 1",
+  "revision": null,
+  "license": "MIT",
+  "n": 1000,
+  "harmful_rate": 0.311
+ },
+ "toxicchat": {
+  "hf": "lmsys/toxic-chat",
+  "config": "toxicchat0124",
+  "split": "test",
+  "field": "user_input",
+  "label": "toxicity",
+  "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8",
+  "license": "CC-BY-NC 4.0 (internal only)",
+  "n": 1000,
+  "harmful_rate": 0.071
+ },
+ "wildguard": {
+  "hf": "allenai/wildguardmix",
+  "config": "wildguardtest",
+  "split": "test",
+  "field": "prompt",
+  "label": "prompt_harm_label == harmful (a missing label counts as safe, as the paper)",
+  "revision": "d29c47f41c8b51348b5c8e8c81c039b3132b66d1",
+  "license": "ODC-BY",
+  "n": 1000,
+  "harmful_rate": 0.437
+ },
+ "harmaug": {
+  "hf": "hbseong/HarmAug_generated_dataset",
+  "config": "default",
+  "split": "train",
+  "field": "prompt",
+  "label": "unsafe-score >= 0.5",
+  "revision": "8898635dce310084cd72036214fddd885a9adc08",
+  "license": "check",
+  "n": 1000,
+  "harmful_rate": 0.252
+ },
+ "harmbench": {
+  "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/data/classifier_val_sets/text_behaviors_val_set.json",
+  "field": "test_case",
+  "label": "majority of the 3 human labels (a label of the response; Q mode reads the prompt)",
+  "revision": null,
+  "license": "MIT",
+  "n": 602,
+  "harmful_rate": 0.4535
+ },
+ "xrtest": {
+  "hf": "allenai/xstest-response",
+  "config": "default",
+  "split": "response_harmfulness",
+  "field": "prompt",
+  "label": "label == harmful (a label of the response; Q mode reads the prompt)",
+  "revision": "4cd03695944eb5940c5a2dfcdf2a493a8f288dbc",
+  "license": "check",
+  "n": 446,
+  "harmful_rate": 0.1749
+ },
+ "xstest": {
+  "hf": "Paul/XSTest",
+  "config": "default",
+  "split": "train",
+  "field": "prompt",
+  "label": "label == unsafe",
+  "revision": "f600c994b256f12867dfa5b3eb3d545a3e62f8b5",
+  "license": "CC-BY 4.0",
+  "n": 450,
+  "harmful_rate": 0.4444,
+  "file": "xstest_prompts.csv",
+  "format": "csv"
+ },
+ "beavertails": {
+  "hf": "PKU-Alignment/BeaverTails",
+  "config": "default",
+  "split": "30k_test",
+  "field": "prompt",
+  "label": "not is_safe (a label of the response; Q mode reads the prompt)",
+  "revision": "8401fe609d288129cc684a9b3be6a93e41cfe678",
+  "license": "CC-BY-NC 4.0 (internal only)",
+  "n": 1000,
+  "harmful_rate": 0.574,
+  "file": "round0/30k/test.jsonl.gz",
+  "format": "jsonl.gz"
+ }
+}

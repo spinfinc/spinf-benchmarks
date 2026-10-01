@@ -1,0 +1,52 @@
+{
+ "pack": "spinf/moderation@0.1.1",
+ "model": "spinf-12b",
+ "fingerprints": [
+  "fp_934740f30d"
+ ],
+ "items": 6857,
+ "billed_tokens": 11727771,
+ "billed_per_item": 1710,
+ "usd_per_1000": 0.1539,
+ "api_vs_local_mismatches": 0,
+ "macro_f1": {
+  "micro_layer": {
+   "aegis": 76.60003724625986,
+   "oai": 81.897263348958,
+   "toxicchat": 84.14129273504274,
+   "wildguard": 81.09271368420158,
+   "harmaug": 64.43559285866705,
+   "harmbench": 58.71467286101433,
+   "xrtest": 64.93118451170999,
+   "xstest": 89.91629278106154,
+   "beavertails": 67.90447374243185
+  },
+  "per_category": {
+   "aegis": 75.58981657179001,
+   "oai": 80.84054651276658,
+   "toxicchat": 82.33486943164363,
+   "wildguard": 77.88171225610829,
+   "harmaug": 65.22257551669317,
+   "harmbench": 56.91385146804836,
+   "xrtest": 60.764735217155,
+   "xstest": 83.07768431469569,
+   "beavertails": 66.27569882177717
+  },
+  "max": {
+   "aegis": 76.4022787028922,
+   "oai": 81.40387750777361,
+   "toxicchat": 81.34449419245993,
+   "wildguard": 76.95336678387525,
+   "harmaug": 68.9563067964498,
+   "harmbench": 54.55191402433609,
+   "xrtest": 62.10179484956213,
+   "xstest": 84.51178451178451,
+   "beavertails": 64.55157745480327
+  }
+ },
+ "mean": {
+  "micro_layer": 74.4,
+  "per_category": 72.1,
+  "max": 72.3
+ }
+}

@@ -14,6 +14,12 @@ options:  [" yes", " no"]      ->  p(" yes"), p(" no"), and the same with empty 
 
 The questions are the ones the use-case pages call. Anyone can re-run everything with their own API key.
 
+## Content moderation prompt pack
+
+[`moderation/`](moderation/README.md) benchmarks `spinf/moderation`, the API's hosted content moderation prompt pack
+(per-category scores and a safe / unsafe decision), on the nine two-class datasets of a recent public moderation benchmark
+(6,857 texts). It has its own fetcher (the texts are not stored here) and runner; see its README.
+
 ## Models
 
 Results are reported for **`spinf-12b`**, the generally available model. spinf serves Google DeepMind's open-weights
